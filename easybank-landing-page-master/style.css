@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    margin-top: -5px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 10% 0px 10%;
+    justify-content: space-between;
+    padding: 15px 5px;
+    
+}
+.navbar img{
+    height: 25px;
+    margin-top: 15px;
+}
+.links{
+    margin-top: 10px;
+
+}
+.links a{
+    padding: 0 12px;
+    font-size: 18px;
+    color: hsl(0, 0%, 65%);
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.hamburger{
+    display: none;
+}
+button{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,205,126,1) 0%, rgba(59,185,181,1) 100%, rgba(0,212,255,1) 100%);
+    border: none;
+    border-radius: 30px;
+    color: hsl(0, 0%, 98%);
+    font-size: 18px;
+    padding: 12px 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.container{
+    background-color:hsl(0, 0%, 99%) ;
+    display: flex;
+}
+.content{
+    margin: 180px auto auto auto;
+    margin-left: 160px;
+    min-width:  480px;
+
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: hsl(233, 26%, 24%);
+}
+.content p{
+    padding: 25px 0 35px 0;
+    line-height: 23px;
+    font-weight: 550;
+    color: hsl(0, 0%, 65%);
+    font-size: 18px;
+}
+.image{
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.image .bg{
+    margin-top: -260px;
+
+}
+.image .top-bg{
+    margin-top: -895px;
+    margin-left: 220px;
+    overflow: hidden;
+}
+
+.facility{
+    background-color: hsl(0, 0%, 97%);
+    margin-top: -125px;
+    border: 2px solid hsl(0, 0%, 97%);
+}
+.facility .bank-content{
+    margin:70px 0 50px 150px ;
+}
+.bank-content h3{
+   font-size: 40px;
+   font-weight: 500;
+   padding: 10px;   
+   color: hsl(233, 26%, 24%);
+}
+.bank-content p{
+    line-height: 23px;
+    font-weight: 500;
+    color: hsl(0, 0%, 65%);
+    font-size: 18px;
+    padding: 10px;
+    margin:0px 700px 0px 0px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px 8% 20px 8%;
+    /* margin: 8%; */
+}
+
+.cards .card{
+
+    margin:0 21px;
+}
+
+.cards img{
+    padding: 20px 10px 10px 0px;
+}
+
+.cards h4{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 0px;
+    color: hsl(233, 26%, 24%);
+    
+    
+}
+.card p{
+    line-height: 23px;
+    color: hsl(0, 0%, 50%);
+}
+
+.articals{
+    border: 2px solid hsl(0, 0%, 99%);
+    background-color:hsl(0, 0%, 99%);
+    padding-bottom: 80px;
+
+}
+.articals .heading{
+    margin: 30px 0px 0px 9%;
+}
+.articals .heading h1{
+    font-size: 44px;
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    margin: 75px 0;
+}
+.artical-cards{
+    display: flex;
+    margin: -20px 8% 0 8%;
+}
+.artical-card{
+
+    background-color: #fff;
+    margin: 0 15px;
+}
+
+.artical-card img{
+    height: 205px;
+    width: 283px;
+    border-radius: 8px 8px 0 0;
+}
+.artical-card .sml{
+    padding: 20px;
+}
+.artical-card .sml small{
+    color: hsl(0, 0%, 50%);
+}
+.artical-card .sml h4{
+    padding: 10px 0;
+    font-size: 18px;
+    color: hsl(233, 26%, 24%); 
+}
+.artical-card .sml p{
+    line-height: 23px;
+    color: hsl(0, 0%, 50%);
+}
+
+/* footer section  */
+.footer{
+    display: flex;
+    background-color: hsl(233, 26%, 24%);
+    padding: 20px 8%;
+    height: 23.5vh;
+}
+.bank-logo img {
+    padding: 30px;
+}
+.social{
+    padding:20px 30px;
+    
+}
+.social img{
+    padding: 0 5px;
+
+}
+.footer .links1, .links2 {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 65px ;
+}
+.footer .links1 a, .links2 a{
+
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    color: hsl(0, 0%, 75%);
+    font-weight: 600;
+}
+.footer .links1 a:hover, .links2 a:hover{
+    color: rgba(48,205,126,1);
+    transition: .3s ease;
+}
+.footer .copyright{
+    position: absolute;
+    right: 100px;
+    margin: 25px 0px;
+}
+.footer .copyright button{
+    position: absolute;
+    right: 0;
+}
+.footer .copyright h3{
+    color: hsl(0, 0%, 50%);
+    padding: 80px 0;
+}
+
+@media screen and (max-width:800px) {
+    .links, .btn{
+        display: none;
+       
+    }
+    .links.show{
+        display: block;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    
+
+    }
+
+    .links.show a{
+        padding: 15px 0;
+        
+    }
+    .links.show a:hover{
+        color: crimson;
+        transition: .3s ease;
+    }
+    .hamburger{
+        display: block;
+    }
+
+
+    
+}
+
